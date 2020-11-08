@@ -1,0 +1,17 @@
+body{
+    background: url(../img/Fondo_ventas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav{
+    font-size: 2em;
+    margin-bottom: 2%;
+    background-color: rgba(9, 204, 204, 0.575);
+}
+
+.card{
+    font-size: 1.5em;
+    font-family: 'Lemonada', cursive;   
+    margin-top: 5%;
+    margin-left: 35%;
+}

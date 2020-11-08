@@ -1,0 +1,74 @@
+body{
+    background: url(../img/fondo_principal.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav-item{
+    position: relative;
+    font-size: 4em;
+    margin-left: 3%;
+}
+
+.nav-link{
+    font-family: 'Secular One', sans-serif;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5px rgb(18, 146, 197);
+    background: linear-gradient(blue 5%, white, blue 95%);
+    -webkit-background-clip: text;
+    color:transparent; 
+    
+}
+
+
+img{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    
+}
+
+.card{
+    background: url(../img/fondo_principal.jpg) no-repeat center center fixed;
+    background-size: cover;   
+    color: white; 
+}
+
+.card img{
+    width: auto;
+    margin: auto;
+}
+
+.card p{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+.card h5{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+
+
+.carta1{
+    float: left;
+    margin-top: 27%;
+}
+
+.carta2{
+    float: left;
+    margin-left: 9%;
+    margin-top: 27%;
+}
+
+.carta3{
+    float: left;
+    margin-left: 9%;
+    margin-top: 27%;
+}
+

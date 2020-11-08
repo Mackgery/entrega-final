@@ -1,0 +1,26 @@
+body{
+    background: url(../img/Fondo_ventas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav{
+    font-size: 2em;
+    background-color: rgba(9, 204, 204, 0.575);
+}
+
+table {
+    font-size: 1.5em;
+    width: 50%;
+    border: 1px  blue;
+    margin:auto;
+}
+
+td{
+    font-family: 'Krona One', sans-serif;
+}
+
+.btn{
+    opacity: .85;
+    float: right;
+    margin-right: 25%;
+}

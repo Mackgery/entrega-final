@@ -1,0 +1,223 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700|Coda|Roboto|RobotoDraft");
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #2f313d;
+  margin: 0 auto;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 0.3em;
+  background-color: #cbcbcb;
+}
+::-webkit-scrollbar-thumb {
+  background: #673ab7;
+}
+
+.cryptoparty--register {
+  border-top: 2px solid #673ab7;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cryptoparty--register .logo {
+  text-align: center;
+}
+.cryptoparty--register img {
+  max-width: 100%;
+  max-height: 150px;
+}
+.cryptoparty--register h1,
+.cryptoparty--register p {
+  text-align: center;
+  font-weight: normal;
+}
+.cryptoparty--register h1 {
+  font-family: "Coda", sans-serif;
+  color: #fff;
+  font-size: 1.23em;
+  line-height: 24px;
+}
+
+.cryptoparty--register a {
+  font-family: "Coda", sans-serif;
+  color: #fff;
+  font-size: 1.23em;
+  line-height: 24px;
+}
+.cryptoparty--register .taller {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cryptoparty--register label {
+  text-align: center;
+  display: block;
+  font-family: "Coda", sans-serif;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300;
+}
+.cryptoparty--register .input--base {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.cryptoparty--register input {
+  background: #f5f5f5;
+  height: 60px;
+  width: 100%;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  border: thin solid #ededed;
+  border-radius: 2px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.cryptoparty--register form input[type="text"],
+.cryptoparty--register form input[type="email"] {
+  padding: 1.1em;
+  background-color: #f5f5f5;
+  border-left: 0.2em solid #fff;
+  color: black;
+}
+.cryptoparty--register form input[type="text"]:focus,
+.cryptoparty--register form input[type="email"]:focus {
+  background: #fff;
+  border-left: 0.2em solid #673ab7;
+  color: #444;
+  outline-color: #495a68;
+  outline: none;
+}
+
+.cryptoparty--register .btn-send {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #e9ecee;
+  background-color: #673ab7;
+}
+.cryptoparty--register .btn-send:hover {
+  background-color: #5e35b1;
+  box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.09804) 0 1px 2px 0;
+}
+.cryptoparty--register .btn-send:active {
+  background-color: #512da8;
+}
+
+/* si y no */
+
+.cryptoparty--register .radio-switch--selector {
+  position: relative;
+  margin: 1em auto;
+  width: 8.23em;
+  height: 3em;
+  text-align: center;
+  background: #00bc9c;
+  border-radius: 2px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.cryptoparty--register .radio-switch--selector span {
+  position: absolute;
+  width: 20px;
+  height: 4px;
+  top: 50%;
+  left: 50%;
+  margin: -2px 0px 0px -4px;
+  background: #fff;
+  display: block;
+  transform: rotate(-45deg);
+  transition: all 0.2s ease;
+}
+.cryptoparty--register .radio-switch--selector span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 12px;
+  margin-top: -8px;
+  background: #fff;
+  transition: all 0.2s ease;
+}
+.cryptoparty--register input[type="radio"] {
+  display: none;
+}
+.cryptoparty--register .radio-switch--selector label {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.2);
+  width: 60px;
+  line-height: 50px;
+  transition: all 0.2s ease;
+}
+.cryptoparty--register label[for="si"] {
+  position: absolute;
+  left: 0px;
+  height: 20px;
+}
+.cryptoparty--register label[for="no"] {
+  position: absolute;
+  right: 0px;
+}
+.cryptoparty--register #no:checked ~ .radio-switch--selector {
+  background: #eb4f37;
+}
+.cryptoparty--register #no:checked ~ .radio-switch--selector span {
+  background: #fff;
+  margin-left: -8px;
+}
+.cryptoparty--register #no:checked ~ .radio-switch--selector span:after {
+  background: #fff;
+  height: 20px;
+  margin-top: -8px;
+  margin-left: 8px;
+}
+.cryptoparty--register #si:checked ~ .radio-switch--selector label[for="si"] {
+  color: #fff;
+}
+.cryptoparty--register #no:checked ~ .radio-switch--selector label[for="no"] {
+  color: #fff;
+}

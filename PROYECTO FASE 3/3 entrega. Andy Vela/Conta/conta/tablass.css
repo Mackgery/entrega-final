@@ -1,0 +1,121 @@
+.tabla1 {
+  margin:0px;padding:0px;
+  width:50%;
+  border:1px solid #949998;
+  
+  -moz-border-radius-bottomleft:18px;
+  -webkit-border-bottom-left-radius:18px;
+  border-bottom-left-radius:18px;
+  
+  -moz-border-radius-bottomright:18px;
+  -webkit-border-bottom-right-radius:18px;
+  border-bottom-right-radius:18px;
+  
+  -moz-border-radius-topright:18px;
+  -webkit-border-top-right-radius:18px;
+  border-top-right-radius:18px;
+  
+  -moz-border-radius-topleft:18px;
+  -webkit-border-top-left-radius:18px;
+  border-top-left-radius:18px;
+}
+
+.tabla1 table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}
+
+.tabla1 tr:last-child td:last-child {
+  -moz-border-radius-bottomright:18px;
+  -webkit-border-bottom-right-radius:18px;
+  border-bottom-right-radius:18px;
+}
+
+.tabla1 table tr:first-child td:first-child {
+  -moz-border-radius-topleft:18px;
+  -webkit-border-top-left-radius:18px;
+  border-top-left-radius:18px;
+}
+
+.tabla1 table tr:first-child td:last-child {
+  -moz-border-radius-topright:18px;
+  -webkit-border-top-right-radius:18px;
+  border-top-right-radius:18px;
+}
+
+.tabla1 tr:last-child td:first-child{
+  -moz-border-radius-bottomleft:18px;
+  -webkit-border-bottom-left-radius:18px;
+  border-bottom-left-radius:18px;
+}
+
+.tabla1 tr:nth-child(odd){ 
+  background-color:#9096a8; 
+}
+
+.tabla1 tr:nth-child(even) { 
+  background-color:#ebffd8; 
+}
+
+.tabla1 td{
+  vertical-align:middle;
+  border:1px solid #949998;
+  border-width:0px 1px 1px 0px;
+  text-align:center;
+  padding:11px;
+  font-size:10px;
+  font-family:Arial;
+  font-weight:bold;
+  color:#000000;
+} 
+
+
+.tabla1 tr:last-child td{
+  border-width:0px 1px 0px 0px;
+}
+
+.tabla1 tr td:last-child{
+  border-width:0px 0px 1px 0px;
+}
+
+.tabla1 tr:last-child td:last-child{
+  border-width:0px 0px 0px 0px;
+}
+
+.tabla1 tr:first-child td{
+    background:-o-linear-gradient(bottom, #30305e 5%, #30305e 100%);  
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #30305e), color-stop(1, #30305e) );
+    background:-moz-linear-gradient( center top, #30305e 5%, #30305e 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#30305e", endColorstr="#30305e");  
+    background: -o-linear-gradient(top,#30305e,30305e);
+    background-color:#30305e;
+    border:0px solid #949998;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:17px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+
+.tabla1 tr:first-child:hover td{
+  background:-o-linear-gradient(bottom, #30305e 5%, #30305e 100%);
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #30305e), color-stop(1, #30305e) );
+  background:-moz-linear-gradient( center top, #30305e 5%, #30305e 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#30305e", endColorstr="#30305e");
+  background: -o-linear-gradient(top,#30305e,30305e);
+  background-color:#30305e;
+}
+
+
+.tabla1 tr:first-child td:first-child {
+  border-width:0px 0px 1px 0px;
+}
+
+.tabla1 tr:first-child td:last-child {
+  border-width:0px 0px 1px 1px;
+}

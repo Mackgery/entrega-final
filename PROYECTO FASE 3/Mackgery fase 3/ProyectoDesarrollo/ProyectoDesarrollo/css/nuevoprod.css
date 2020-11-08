@@ -1,0 +1,63 @@
+body {
+    background: url(../img/fondo_ventas.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.modal-title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 3em;
+}
+
+.nav{
+    font-size: 2em;
+    background-color: rgba(9, 204, 204, 0.575);
+}
+
+td{
+    font-size: 1.8em;
+    text-align: center;
+    color: rgba(37, 37, 179, 0.685);
+    font-family: 'Fredoka One', cursive;
+}
+
+ input{
+    width: 110%;
+    font-size: 25px;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color: rgba(207, 226, 233, 0.815);
+    opacity: .75;
+}
+
+.modal-body{
+    width: 95%;
+    height: 25%;
+    background: url(../img/fondo_ventas.jpg) no-repeat center center fixed;
+}
+
+.modal-title{
+    text-align: center;
+    color: rgba(37, 37, 179, 0.685);
+}
+
+.modal-header{
+    background: url(../img/fondo_ventas.jpg) no-repeat center center fixed;
+}
+
+.modal-content{
+    background: url(../img/Fondo_ventas.jpg) no-repeat center center fixed;
+
+}
+
+.modal-dialog{
+    background: url(../img/Fondo_ventas.jpg) no-repeat center center fixed;
+}
+
+
+.tabla2 {
+    font-size: 1.4em;
+    width: 18%;
+    border: 1px  blue;
+    margin:auto;
+}
+

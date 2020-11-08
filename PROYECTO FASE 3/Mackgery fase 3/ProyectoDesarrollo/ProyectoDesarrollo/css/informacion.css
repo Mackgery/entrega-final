@@ -1,0 +1,35 @@
+body{
+    background: url(../img/Fondo_informacion.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+margin-top: 0.5%;
+text-align: center;
+font-family: Sanchez;
+font-style: normal;
+font-weight: normal;
+font-size: 6em;
+color: #E5E5E5;
+font-family: 'Passion One', cursive;
+opacity: .95;
+}
+
+
+p{
+margin-top: 0.5%;
+position: absolute;
+font-family: Sanchez;
+font-style: normal;
+font-weight: normal;
+font-size: 3em;
+line-height: 82px;
+color: #E5E5E5;
+font-family: 'Passion One', cursive;
+opacity: .95;
+}
+
+img{
+    margin-top: 25%;
+    margin-left: 38%;   
+}
